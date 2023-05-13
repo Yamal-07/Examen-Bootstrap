@@ -4,15 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Portafolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg bg-black text-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">Portafolio</a>
                     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,14 +43,16 @@
             </nav>
         </div>
 
+         <br>
+
         <div class="row">
 
             <div class="col d-flex align-items-center">
 
                 <div>
-                    <h5>Hello, I´m </h5>
+                    <h5>Hello, I'm </h5>
                     <h1>Roger Waters</h1>
-                    <h5>Principal composer of Pink Floyd during the band's most influential
+                    <h5 style="text-align: justify;">Principal composer of Pink Floyd during the band's most influential
                         and creative period </h5>
 
                     <button class="btn btn-outline-success" type="submit">Contact me</button>
@@ -58,24 +61,34 @@
             </div>
 
             <div class="col d-flex justify-content-center align-items-center">
-                <img src="./img/roger1.webp" alt=" " style="height: 300px;">
+                <img src="./img/roger1.webp" alt=" " style="height: 500px; width:500px;">
             </div>
 
-            <h2>About Me</h2>
 
         </div>
+        
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <h2 id="sobre">About Me</h2>
+            </div>
+        </div>
+         
+        <br>
 
         <div class="row">
 
-
             <div class="col d-flex justify-content-center align-items-center">
-                <img src="./img/roger3.jpg" alt=" " style="height: 300px;">
+                <img src="./img/roger3.jpg" alt=" " style="height: 500px; width:500px ;">
             </div>
 
             <div class="col text-center d-flex justify-content-center align-items-center">
                 <div>
-                    <h5>Who I Am?</h5>
-                    <h5>George Roger Waters (born 6 September 1943) is an English musician, singer-songwriter and
+                    <h2>Who I Am?</h2>
+                    <br><br>
+                    <h5 style="text-align: justify;">George Roger Waters (born 6 September 1943) is an English musician, singer-songwriter and
                         composer.
                         In 1965, he co-founded the progressive rock band Pink Floyd as its bassist. Following the
                         departure
@@ -85,58 +98,149 @@
                     <button class="btn btn-outline-success" type="submit">Download Resume</button>
                 </div>
             </div>
-
-
-            <h2>My Skills</h2>
-
-            <div class="row">
-
-                <div class="col d-flex justify-content-center align-items-center">
-                    <div>
-                        <h5>My creative skills and experiences </h5>
-                        <h5>Roger Waters rose to prominence as the guiding hand behind the sometimes compellingly
-                            philosophical and sometimes bombastic thematic content of Pink Floyd following the departure
-                            of the group's first creative driving force </h5>
-                        <button class="btn btn-outline-success" type="submit">Contact me</button>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <h3>HTML</h3>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="10%" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <h3>CSS</h3>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <h3>JAVA SCRIPT</h3>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <h3>PHP</h3>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                      <h3>MY SQL</h3>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div>
-                </div>
-
-            </div>
-
-            <h2>Proyects</h2>
-
-            <h2>Contact Me</h2>
-
-
-
         </div>
 
+       <br>
 
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h2 id="habilidad">My Skills</h2>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="row">
+
+            <div class="col d-flex justify-content-center align-items-center">
+                <div>
+                    <h3>My creative skills and experiences </h3>
+                    <br><br>
+                    <h5 style="text-align: justify;">Roger Waters rose to prominence as the guiding hand behind the sometimes compellingly
+                        philosophical and sometimes bombastic thematic content of Pink Floyd following the departure
+                        of the group's first creative driving force </h5>
+                   
+                </div>
+            </div>
+
+            <div class="col align-items-center  ">
+                <h4>HTML</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%"
+                        aria-valuenow="90%" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+                <h4>CSS</h4>
+                <div class="progress" color:black>
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%"
+                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+                <h4>JAVA SCRIPT</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 40%"
+                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                </div>
+                <h4>PHP</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+                <h4>MY SQL</h4>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+            </div>
+
+        </div>
+         
+        <br>
+
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h2 id="proyec">Proyects</h2>
+            </div>
+        </div>
+        
+        <br>
+    
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <span> <img src="./img/roger-1.jpg" alt="" style="height: 400px; width:400px;"> </span>
+                <span> <img src="./img/roger-2.jpg" alt="" style="height: 400px; width:400px;"> </span>
+                <span> <img src="./img/roger-3.jpg" alt="" style="height: 400px; width:400px;"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <span><img src="./img/roger-4.jpg" alt="" style="height: 400px; width:400px;"></span>
+                <span><img src="./img/roger-5.jpg" alt="" style="height: 400px; width:400px;"></span>
+                <span> <img src="./img/roger-8.jpg" alt="" style="height: 400px; width:400px;"></span>
+            </div>
+        </div>
+    
+        <br>
+
+        <div class="row">
+            <div class="col">
+                <h2 id="contacto">Contact Me</h2>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col d-flex align-items-start">
+                <form>
+                    <div class="col d-flex align-items-center">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Email</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Question</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Menssage</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+    
+            </div>
+    
+            <div class="col justify-content-center flex-column">
+                <h3>Get in Touch</h3>
+                <h5 style="text-align: justify;">The contact details for Roger Waters management can be found here at Booking Agent Info. You can get access to all of Roger Waters contacts by signing up and becoming a member. Roger Waters's managers are Mark Fenwick and Andrew Zweck.
+                </h5>
+                <br>
+                <!-- <h1 style="color: black;">sada</h1> -->
+    
+                <h4> <img src="./img/log1.png" alt="" style="height: 50px;"> Roger Waters</h4>
+                <h4> <img src="./img/log2.avif" alt="" style="height: 50px;"> https://www.facebook.com/rogerwaters</h4>
+                <h4> <img src="./img/log3.webp" alt="" style="height: 50px;"> https://www.instagram.com/rogerwaters/?hl=es</h4>
+    
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h6 style="color: yellow;">Create by Yacavate| 2023</h6>
+            </div>
+        </div>
 
     </div>
+
+
+    
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
